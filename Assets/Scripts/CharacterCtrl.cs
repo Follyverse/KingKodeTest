@@ -18,7 +18,7 @@ public class CharacterCtrl : MonoBehaviour
     //      Left Stick up & down (over half way) = forward & backward
     //      Left Stick left & right (over half way) = slide left and right
     //      Right stick left & right (over half way) = turn left and right
-    // UI: I misunderstood the question first, so I also created an in-game UI for movement with four buttons under UI game object. Their input is process in Directions script. I just left it as it is.
+    // UI: I misunderstood the question first, so I also created an in-game UI for movement with four buttons under UI game object. Their input is process in Directions script. I just left it as it is. It's activated by digit key 4.
     //
     [Tooltip("Units per seconds")]
     public float movementSpeed = 1f;
